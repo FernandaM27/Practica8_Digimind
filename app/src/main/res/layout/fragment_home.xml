@@ -10,28 +10,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/logobrain" />
-    
+
     <GridView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="7.2"
         android:id="@+id/gridview"
-        android:numColumns="3" >
-    </GridView>
-    
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:numColumns="3" />
+
 </LinearLayout>
